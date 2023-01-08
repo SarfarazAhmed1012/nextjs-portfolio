@@ -206,7 +206,7 @@ export default function Home() {
             <DefaultCard
               image={web2}
               title="Expense Tracker"
-              tech="MERN, Redux Toolkit, Chart JS, Tailwind CSS"
+              tech="MERN, Redux Toolkit, Chart JS, and Tailwind CSS"
               github="https://github.com/SarfarazAhmed1012/expense_tracker_MERN_semester_project"
               live=""
               number="3"
