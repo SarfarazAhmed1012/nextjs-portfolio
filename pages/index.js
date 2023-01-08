@@ -10,8 +10,8 @@ import web1 from "../public/youth.png";
 import web2 from "../public/savings.png";
 import web3 from "../public/storic.png";
 import web4 from "../public/socio.png";
-import gym from "../public/gym.png";
-import ecomm from "../public/ecomm.png";
+import gym from "../public/myg.png";
+import ecomm from "../public/ecommerce.png";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -19,7 +19,6 @@ import Modal from "@mui/material/Modal";
 import picture from "../public/picture1.png";
 import { useState } from "react";
 import ContactUs from "./components/ContactUs";
-// import Resume from "../public/Resume.pdf";
 
 const style = {
   position: "absolute",
