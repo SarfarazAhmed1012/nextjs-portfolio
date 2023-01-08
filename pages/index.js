@@ -10,6 +10,8 @@ import web1 from "../public/youth.png";
 import web2 from "../public/savings.png";
 import web3 from "../public/storic.png";
 import web4 from "../public/socio.png";
+import gym from "../public/gym.png";
+import ecomm from "../public/ecomm.png";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -103,7 +105,7 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/1rbqmajKOhWZvRVjwMNlpPGdOKo_7-UQm/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1KsBD3JawqUDzTkFL_YvC3UVUAI5aU4wu/view">
                   <div className="p-1">
                     <button class="font-burtons sm:text-sm md:text-lg relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
                       <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
@@ -120,7 +122,7 @@ export default function Home() {
               Sarfaraz Ahmed
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white sm:text-xl">
-              Front End Developer
+              REACT JS Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl  mx-auto dark:text-yellow-50 sm:text-sm">
               I’m a Computer Science Student specializing in building
@@ -131,13 +133,13 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-700 sm:text-2xl sm:gap-6">
             <a href="https://github.com/SarfarazAhmed1012">
-              <AiFillGithub className="dark:text-white sm:text-lg md:text-2xl lg:text-4xl" />
+              <AiFillGithub className="dark:text-white sm:text-lg md:text-2xl lg:text-4xl hover:text-teal-600" />
             </a>
             <a href="https://www.linkedin.com/in/sarfaraz-ahmed-215ba016a/">
-              <AiFillLinkedin className="dark:text-white sm:text-lg md:text-2xl lg:text-4xl" />
+              <AiFillLinkedin className="dark:text-white sm:text-lg md:text-2xl lg:text-4xl hover:text-teal-600" />
             </a>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sarfarazahmed1012@gmail.com">
-              <AiFillMessage className="dark:text-white sm:text-lg md:text-2xl lg:text-4xl" />
+              <AiFillMessage className="dark:text-white sm:text-lg md:text-2xl lg:text-4xl hover:text-teal-600" />
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-700 rounded-full w-80 h-80 mt-20 overflow-hidden sm:w-40 sm:h-40 md:w-96 md:h-96">
@@ -224,6 +226,22 @@ export default function Home() {
               github="https://github.com/SarfarazAhmed1012/Admin-Dashboard-using-React-JS"
               live="https://syncfusion-admin-dashboard-1012.netlify.app/"
               number="5"
+            />
+            <DefaultCard
+              image={ecomm}
+              title="Ecommerce Application"
+              tech="React JS, Starpi, Stripe"
+              github="https://github.com/SarfarazAhmed1012/ecommerce-strapi-stripe"
+              live="https://github.com/SarfarazAhmed1012/ecommerce-strapi-stripe"
+              number="6"
+            />
+            <DefaultCard
+              image={gym}
+              title="GYMsii"
+              tech="React JS, RAPID API, Material UI"
+              github="https://github.com/SarfarazAhmed1012/gym-mui-rapid-api"
+              live="https://gymsii.netlify.app/"
+              number="7"
             />
           </div>
         </section>
